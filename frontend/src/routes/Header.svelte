@@ -1,6 +1,6 @@
 <script>
 	import { page } from '$app/stores';
-	import logo from '$lib/images/svelte-logo.svg';
+	import logo from '$lib/images/amorVidaStyle-temp-logo_icon.png';
 	import github from '$lib/images/github.svg';
 </script>
 
@@ -22,8 +22,11 @@
 			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
 				<a href="/about">About</a>
 			</li>
-			<li aria-current={$page.url.pathname.startsWith('/sverdle') ? 'page' : undefined}>
-				<a href="/sverdle">Sverdle</a>
+			<li aria-current={$page.url.pathname === '/donate' ? 'page' : undefined}>
+				<a href="/donate">Donate</a>
+			</li>
+			<li aria-current={$page.url.pathname.startsWith('/contact') ? 'page' : undefined}>
+				<a href="/contact">Contact</a>
 			</li>
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
@@ -32,6 +35,7 @@
 	</nav>
 
 	<div class="corner">
+		<!-- TODO: Create repo and add it here :) -->
 		<a href="https://github.com/sveltejs/kit">
 			<img src={github} alt="GitHub" />
 		</a>
