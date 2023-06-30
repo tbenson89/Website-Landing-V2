@@ -35,8 +35,7 @@
 	</nav>
 
 	<div class="corner">
-		<!-- TODO: Create repo and add it here :) -->
-		<a href="https://github.com/sveltejs/kit">
+		<a href="https://github.com/tbenson89/Website-Landing-V2.git">
 			<img src={github} alt="GitHub" />
 		</a>
 	</div>
