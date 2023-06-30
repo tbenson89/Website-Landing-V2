@@ -1,6 +1,7 @@
 <script>
 	import Header from './Header.svelte';
 	import './styles.css';
+	import '../lib/theme/_layout-styles.css';
 </script>
 
 <div class="app">
@@ -10,44 +11,19 @@
 		<slot />
 	</main>
 
+	<!-- TODO: Update footer styles to static bottom and look better with a footer grid -->
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<p>
+			This site is under construction. but this is the layout we want right. header main and footer ?
+			<br>
+			<br>
+			visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit
+		</p>
 	</footer>
 </div>
 
-<style>
-	.app {
-		display: flex;
-		flex-direction: column;
-		min-height: 100vh;
-	}
 
-	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 64rem;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
+	- https://kit.svelte.dev/docs/creating-a-project
+	- 
 
-	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 12px;
-	}
-
-	footer a {
-		font-weight: bold;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 12px 0;
-		}
-	}
-</style>
+ -->
